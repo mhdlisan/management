@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -45,4 +46,6 @@ Route::view('/staff', 'home');
 Route::get('/logout', function () {
     return view('home');
 });
+
+
 
